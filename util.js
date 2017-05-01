@@ -30,6 +30,13 @@ Util.prototype.TmplResult = function(name, data) {
 	this.data = data;
 }
 
+Util.prototype.SendFile = function(name, data, file) {
+	this.name = name;
+	this.data = data;
+	this.file = file;
+}
+
+//API use
 Util.prototype.JsonOk = function(data) {
 	this.data = data;
 }
